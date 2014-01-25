@@ -1,0 +1,16 @@
+years = 40
+days = 159
+hours = 6
+minutes = 24
+secs_day = 24 * 60 *60
+secs_minute = 60
+secs_hour = 60 * 60
+authors_age_in_secs = 1160000000
+
+age_seconds = years * 365 * secs_day + days * secs_day + hours * secs_hour + minutes * secs_minute
+
+puts 'I am this many seconds old:', age_seconds
+
+authors_age =  ((((authors_age_in_secs / 60) / 60) / 24 / 365))
+
+puts 'authors age is: ', authors_age
